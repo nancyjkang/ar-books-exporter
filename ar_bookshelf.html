@@ -1,0 +1,262 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><link type="text/css" rel="stylesheet" href="../../res/RLICommon.css" /><title>
+	Renaissance Home Connect - My Bookshelf
+</title>
+	        
+	<link href="../../App_Themes/HCStandard/HCStandard.css" type="text/css" rel="stylesheet" /><style type="text/css">
+	.ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_0 { background-color:white;visibility:hidden;display:none;position:absolute;left:0px;top:0px; }
+	.ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_1 { text-decoration:none; }
+	.ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_2 {  }
+	.ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_3 {  }
+	.ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_4 { background-color:Transparent;padding:5px 5px 5px 5px; }
+	.ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_5 { border-style:none; }
+	.ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_6 {  }
+	.ctl00_ContentPlaceHolder_Content_mMenu_Sort_0 { background-color:white;visibility:hidden;display:none;position:absolute;left:0px;top:0px; }
+	.ctl00_ContentPlaceHolder_Content_mMenu_Sort_1 { text-decoration:none; }
+	.ctl00_ContentPlaceHolder_Content_mMenu_Sort_2 {  }
+	.ctl00_ContentPlaceHolder_Content_mMenu_Sort_3 {  }
+	.ctl00_ContentPlaceHolder_Content_mMenu_Sort_4 { background-color:Transparent;padding:0px 5px 0px 5px; }
+	.ctl00_ContentPlaceHolder_Content_mMenu_Sort_5 { border-style:none; }
+	.ctl00_ContentPlaceHolder_Content_mMenu_Sort_6 {  }
+
+</style></head>
+<body>
+    <form name="aspnetForm" method="post" action="./ARViewBookShelf.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTc4NjQ0MTg4MA8WCB4NUHJldmlvdXMgUGFnZWUeDUN1cnJlbnRQYWdlSUQCAR4PQ3VycmVudFNvcnRUeXBlCymYAVJlbmxlYXJuLkhvbWVDb25uZWN0LkludGVyZmFjZS5BUkludGVyZmFjZXMrU29ydE9yZGVyLCBSZW5sZWFybi5Ib21lQ29ubmVjdC5JbnRlcmZhY2UsIFZlcnNpb249MS4yLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1hYWMwMmI4OWZlYzMwYTg0AB4KVG90YWxQYWdlcwIjFgJmDw8WAh4JSXNTdWJQYWdlZ2QWAgIDD2QWCAIDD2QWDAIBD2QWAmYPFgIeCWlubmVyaHRtbAUFMTYwMDBkAgMPZBYCZg8WAh8FBQQ2Nzc3ZAIFDxYCHwUFDUJlbmphbWluIEthbmdkAgcPFgIeB1Zpc2libGVoZAIJDxYCHwZoZAILDxYEHgNVUkwFR2h0dHBzOi8vaGVscHJlZGlyZWN0LnJlbmFpc3NhbmNlLmNvbS9yZWRpci5hc3A/Yz1lbi1VUy1oZWxwLUhDLUhDQVJoZWxwHgRocmVmBZABamF2YXNjcmlwdDp2b2lkKExhdW5jaFBvcFVwV2luZG93KCdodHRwczovL2hlbHByZWRpcmVjdC5yZW5haXNzYW5jZS5jb20vcmVkaXIuYXNwP2M9ZW4tVVMtaGVscC1IQy1IQ0FSaGVscCcsJycsJzAnLCcwJywnRmFsc2UnLCdGYWxzZScsJ0ZhbHNlJykpZAIFDxYCHwZoZAIHD2QWAgIBD2QWAgIDD2QWAgIBDzwrAA0CAhYEHghDc3NDbGFzcwUNbGlua3NTZWxlY3RlZB4EXyFTQgICDBQrAAMFBzA6MCwwOjEUKwACFgYeBFRleHQFGFJlYWRpbmcgUHJhY3RpY2UgUXVpenplcx4FVmFsdWUFEUFSUmVhZGluZ1ByYWN0aWNlHghTZWxlY3RlZGdkFCsAAhYEHwsFG1ZvY2FidWxhcnkgUHJhY3RpY2UgUXVpenplcx8MBQ9BUlZvY2FiUHJhY3RpY2VkZAIJD2QWBAIBD2QWAgIBDzwrAA0CAhYEHwkFEnNtYWxsTGlua3NTZWxlY3RlZB8KAgIMFCsAAwUHMDowLDA6MRQrAAIWBh8LBQpEYXRlIFRha2VuHwwFCURhdGVUYWtlbh8NZ2QUKwACFgQfCwUFVGl0bGUfDAUFVGl0bGVkZAICD2QWAmYPZBYEZg9kFgwCAQ8WAh8FBRtNeSBSZWFkaW5nIFByYWN0aWNlIFF1aXp6ZXNkAgMPFgIfBQUMUGFnZSAxIG9mIDM1ZAIFDw8WBB4ISW1hZ2VVcmwFGn4vaW1hZ2VzL2hjQmVnaW5uaW5nX2QucG5nHgdFbmFibGVkaGRkAgcPDxYEHw4FGX4vaW1hZ2VzL2hjUHJldmlvdXNfZC5wbmcfD2hkZAIJDw8WAh8OBRN+L2ltYWdlcy9oY05leHQucG5nZGQCCw8PFgIfDgUSfi9pbWFnZXMvaGNFbmQucG5nZGQCAQ9kFgQCAQ9kFgICAQ8WBB4FY2xhc3MFEmJvb2tTaGVsZlNhZmFyaU9sZB4Fc3R5bGUFEnRleHQtYWxpZ246Y2VudGVyOxYCAgEPFgIeC18hSXRlbUNvdW50AhQWKGYPZBYCAgEPZBYCAgEPDxYGHw4FMWh0dHBzOi8vY292ZXJzY2Fucy5yZW5sZWFybi5jb20vOTc4MDAwNzI2MzQ4Ni5qcGceB1Rvb2xUaXAFFVRoZSBQaGFudG9tIFRvbGxib290aB4PQ29tbWFuZEFyZ3VtZW50BTh+L0hDL1JlYWRpbmcvQVJWaWV3Qm9va0RldGFpbHMuYXNweD9SUElEPTE0ODc3NTEmVlBJRD0tMRYCHxAFEmJvb2tJbWFnZVNhZmFyaU9sZGQCAQ9kFgICAQ9kFgICAQ8PFgYfDgUxaHR0cHM6Ly9jb3ZlcnNjYW5zLnJlbmxlYXJuLmNvbS85NzgwODAzNzM4NTUzLmpwZx8TBQ5Db3VudGluZyBieSA3cx8UBTh+L0hDL1JlYWRpbmcvQVJWaWV3Qm9va0RldGFpbHMuYXNweD9SUElEPTE0ODc2MjMmVlBJRD0tMRYCHxAFEmJvb2tJbWFnZVNhZmFyaU9sZGQCAg9kFgICAQ9kFgICAQ8PFgYfDgUxaHR0cHM6Ly9jb3ZlcnNjYW5zLnJlbmxlYXJuLmNvbS85NzgwMTUyMDEyNDY1LmpwZx8TBQlUYW5nZXJpbmUfFAU4fi9IQy9SZWFkaW5nL0FSVmlld0Jvb2tEZXRhaWxzLmFzcHg/UlBJRD0xNDg3MTAyJlZQSUQ9LTEWAh8QBRJib29rSW1hZ2VTYWZhcmlPbGRkAgMPZBYCAgEPZBYCAgEPDxYGHw4FMWh0dHBzOi8vY292ZXJzY2Fucy5yZW5sZWFybi5jb20vOTc4MDU0NzMyODYxNC5qcGcfEwUbSXNsYW5kIG9mIHRoZSBCbHVlIERvbHBoaW5zHxQFOH4vSEMvUmVhZGluZy9BUlZpZXdCb29rRGV0YWlscy5hc3B4P1JQSUQ9MTQ4NjQyMSZWUElEPS0xFgIfEAUSYm9va0ltYWdlU2FmYXJpT2xkZAIED2QWAgIBD2QWAgIBDw8WBh8OBTFodHRwczovL2NvdmVyc2NhbnMucmVubGVhcm4uY29tLzk3ODAzMzA0Mzk3MjUuanBnHxMFB0hhdGNoZXQfFAU4fi9IQy9SZWFkaW5nL0FSVmlld0Jvb2tEZXRhaWxzLmFzcHg/UlBJRD0xNDg2NDE5JlZQSUQ9LTEWAh8QBRJib29rSW1hZ2VTYWZhcmlPbGRkAgUPZBYCAgEPZBYCAgEPDxYGHw4FMWh0dHBzOi8vY292ZXJzY2Fucy5yZW5sZWFybi5jb20vOTc4MDgzMzUxMzQ4OS5qcGcfEwUYQnkgdGhlIEdyZWF0IEhvcm4gU3Bvb24hHxQFOH4vSEMvUmVhZGluZy9BUlZpZXdCb29rRGV0YWlscy5hc3B4P1JQSUQ9MTQ4NjAxNSZWUElEPS0xFgIfEAUSYm9va0ltYWdlU2FmYXJpT2xkZAIGD2QWAgIBD2QWAgIBDw8WBh8OBTFodHRwczovL2NvdmVyc2NhbnMucmVubGVhcm4uY29tLzk3ODAxNDAzNzk4NTMuanBnHxMFB01hdGlsZGEfFAU4fi9IQy9SZWFkaW5nL0FSVmlld0Jvb2tEZXRhaWxzLmFzcHg/UlBJRD0xNDg1NzI5JlZQSUQ9LTEWAh8QBRJib29rSW1hZ2VTYWZhcmlPbGRkAgcPZBYCAgEPZBYCAgEPDxYGHw4FMWh0dHBzOi8vY292ZXJzY2Fucy5yZW5sZWFybi5jb20vOTc4MDAwNzExNTU0OS5qcGcfEwUPVGhlIExhc3QgQmF0dGxlHxQFOH4vSEMvUmVhZGluZy9BUlZpZXdCb29rRGV0YWlscy5hc3B4P1JQSUQ9MTQ4NTI4NiZWUElEPS0xFgIfEAUSYm9va0ltYWdlU2FmYXJpT2xkZAIID2QWAgIBD2QWAgIBDw8WBh8OBTFodHRwczovL2NvdmVyc2NhbnMucmVubGVhcm4uY29tLzk3ODAwMDcyNTMwMTIuanBnHxMFEFRoZSBTaWx2ZXIgQ2hhaXIfFAU4fi9IQy9SZWFkaW5nL0FSVmlld0Jvb2tEZXRhaWxzLmFzcHg/UlBJRD0xNDg0OTA2JlZQSUQ9LTEWAh8QBRJib29rSW1hZ2VTYWZhcmlPbGRkAgkPZBYCAgEPZBYCAgEPDxYGHw4FMWh0dHBzOi8vY292ZXJzY2Fucy5yZW5sZWFybi5jb20vOTc4MDAwNzI1MzAwNS5qcGcfEwUeVGhlIFZveWFnZSBvZiB0aGUgRGF3biBUcmVhZGVyHxQFOH4vSEMvUmVhZGluZy9BUlZpZXdCb29rRGV0YWlscy5hc3B4P1JQSUQ9MTQ4NDE3NyZWUElEPS0xFgIfEAUSYm9va0ltYWdlU2FmYXJpT2xkZAIKD2QWAgIBD2QWAgIBDw8WBh8OBTFodHRwczovL2NvdmVyc2NhbnMucmVubGVhcm4uY29tLzk3ODAwMDcyMDIzMDAuanBnHxMFDlByaW5jZSBDYXNwaWFuHxQFOH4vSEMvUmVhZGluZy9BUlZpZXdCb29rRGV0YWlscy5hc3B4P1JQSUQ9MTQ4MzIxMCZWUElEPS0xFgIfEAUSYm9va0ltYWdlU2FmYXJpT2xkZAILD2QWAgIBD2QWAgIBDw8WBh8OBTFodHRwczovL2NvdmVyc2NhbnMucmVubGVhcm4uY29tLzk3ODAwMDcyNTI5ODUuanBnHxMFFVRoZSBIb3JzZSBhbmQgSGlzIEJveR8UBTh+L0hDL1JlYWRpbmcvQVJWaWV3Qm9va0RldGFpbHMuYXNweD9SUElEPTE0ODE5NjkmVlBJRD0tMRYCHxAFEmJvb2tJbWFnZVNhZmFyaU9sZGQCDA9kFgICAQ9kFgICAQ8PFgYfDgUxaHR0cHM6Ly9jb3ZlcnNjYW5zLnJlbmxlYXJuLmNvbS85NzgwODgxMDMwNzc4LmpwZx8TBTFUaGUgTGlvbiwgdGhlIFdpdGNoIGFuZCB0aGUgV2FyZHJvYmUgKFVuYWJyaWRnZWQpHxQFOH4vSEMvUmVhZGluZy9BUlZpZXdCb29rRGV0YWlscy5hc3B4P1JQSUQ9MTQ4MTY0NSZWUElEPS0xFgIfEAUSYm9va0ltYWdlU2FmYXJpT2xkZAIND2QWAgIBD2QWAgIBDw8WBh8OBTFodHRwczovL2NvdmVyc2NhbnMucmVubGVhcm4uY29tLzk3ODAwNjA1MzA4NDYuanBnHxMFFVRoZSBNYWdpY2lhbidzIE5lcGhldx8UBTh+L0hDL1JlYWRpbmcvQVJWaWV3Qm9va0RldGFpbHMuYXNweD9SUElEPTE0ODEzMDAmVlBJRD0tMRYCHxAFEmJvb2tJbWFnZVNhZmFyaU9sZGQCDg9kFgICAQ9kFgICAQ8PFgYfDgUxaHR0cHM6Ly9jb3ZlcnNjYW5zLnJlbmxlYXJuLmNvbS85NzgwMzk5MjQ2OTEzLmpwZx8TBQ9UaGluZ3MgVGhhdCBBcmUfFAU4fi9IQy9SZWFkaW5nL0FSVmlld0Jvb2tEZXRhaWxzLmFzcHg/UlBJRD0xNDgwNDg4JlZQSUQ9LTEWAh8QBRJib29rSW1hZ2VTYWZhcmlPbGRkAg8PZBYCAgEPZBYCAgEPDxYGHw4FMWh0dHBzOi8vY292ZXJzY2Fucy5yZW5sZWFybi5jb20vOTc4MDE0MjQxMDczOC5qcGcfEwUQVGhpbmdzIEhvcGVkIEZvch8UBTh+L0hDL1JlYWRpbmcvQVJWaWV3Qm9va0RldGFpbHMuYXNweD9SUElEPTE0ODAwMDYmVlBJRD0tMRYCHxAFEmJvb2tJbWFnZVNhZmFyaU9sZGQCEA9kFgICAQ9kFgICAQ8PFgYfDgUxaHR0cHM6Ly9jb3ZlcnNjYW5zLnJlbmxlYXJuLmNvbS85NzgwMTQyNDAwNzYwLmpwZx8TBQ9UaGluZ3MgTm90IFNlZW4fFAU4fi9IQy9SZWFkaW5nL0FSVmlld0Jvb2tEZXRhaWxzLmFzcHg/UlBJRD0xNDc5MzQ3JlZQSUQ9LTEWAh8QBRJib29rSW1hZ2VTYWZhcmlPbGRkAhEPZBYCAgEPZBYCAgEPDxYGHw4FMWh0dHBzOi8vY292ZXJzY2Fucy5yZW5sZWFybi5jb20vOTc4MTMzODE4OTgyNy5qcGcfEwUSVGhlIFdpbGRjYXQncyBDbGF3HxQFOH4vSEMvUmVhZGluZy9BUlZpZXdCb29rRGV0YWlscy5hc3B4P1JQSUQ9MTQ3ODU0NCZWUElEPS0xFgIfEAUSYm9va0ltYWdlU2FmYXJpT2xkZAISD2QWAgIBD2QWAgIBDw8WBh8OBTFodHRwczovL2NvdmVyc2NhbnMucmVubGVhcm4uY29tLzk3ODEzMzgxODk4MTAuanBnHxMFEUhlYXJ0IG9mIHRoZSBMYW5kHxQFOH4vSEMvUmVhZGluZy9BUlZpZXdCb29rRGV0YWlscy5hc3B4P1JQSUQ9MTQ3ODU0MiZWUElEPS0xFgIfEAUSYm9va0ltYWdlU2FmYXJpT2xkZAITD2QWAgIBD2QWAgIBDw8WBh8OBTFodHRwczovL2NvdmVyc2NhbnMucmVubGVhcm4uY29tLzk3ODA1NDU4NzY5NzEuanBnHxMFEFRoZSBCdXJuaW5nIFRpZGUfFAU4fi9IQy9SZWFkaW5nL0FSVmlld0Jvb2tEZXRhaWxzLmFzcHg/UlBJRD0xNDc4MjQ1JlZQSUQ9LTEWAh8QBRJib29rSW1hZ2VTYWZhcmlPbGRkAgMPFgIfBmhkGAMFK2N0bDAwJENvbnRlbnRQbGFjZUhvbGRlcl9Db250ZW50JG1NZW51X1NvcnQPD2QFCURhdGVUYWtlbmQFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYYBT1jdGwwMCRDb250ZW50UGxhY2VIb2xkZXJfQ29udGVudCRtQm94X0Jvb2tTaGVsZiRtQnV0dG9uX0ZpcnN0BTxjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJfQ29udGVudCRtQm94X0Jvb2tTaGVsZiRtQnV0dG9uX1ByZXYFPGN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcl9Db250ZW50JG1Cb3hfQm9va1NoZWxmJG1CdXR0b25fTmV4dAU8Y3RsMDAkQ29udGVudFBsYWNlSG9sZGVyX0NvbnRlbnQkbUJveF9Cb29rU2hlbGYkbUJ1dHRvbl9MYXN0BVpjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJfQ29udGVudCRtQm94X0Jvb2tTaGVsZiRtQm9va1NoZWxmJG1SZXBlYXRlcl9Cb29rcyRjdGwwMCRtSW1nX0Jvb2sFWmN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcl9Db250ZW50JG1Cb3hfQm9va1NoZWxmJG1Cb29rU2hlbGYkbVJlcGVhdGVyX0Jvb2tzJGN0bDAxJG1JbWdfQm9vawVaY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyX0NvbnRlbnQkbUJveF9Cb29rU2hlbGYkbUJvb2tTaGVsZiRtUmVwZWF0ZXJfQm9va3MkY3RsMDIkbUltZ19Cb29rBVpjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJfQ29udGVudCRtQm94X0Jvb2tTaGVsZiRtQm9va1NoZWxmJG1SZXBlYXRlcl9Cb29rcyRjdGwwMyRtSW1nX0Jvb2sFWmN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcl9Db250ZW50JG1Cb3hfQm9va1NoZWxmJG1Cb29rU2hlbGYkbVJlcGVhdGVyX0Jvb2tzJGN0bDA0JG1JbWdfQm9vawVaY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyX0NvbnRlbnQkbUJveF9Cb29rU2hlbGYkbUJvb2tTaGVsZiRtUmVwZWF0ZXJfQm9va3MkY3RsMDUkbUltZ19Cb29rBVpjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJfQ29udGVudCRtQm94X0Jvb2tTaGVsZiRtQm9va1NoZWxmJG1SZXBlYXRlcl9Cb29rcyRjdGwwNiRtSW1nX0Jvb2sFWmN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcl9Db250ZW50JG1Cb3hfQm9va1NoZWxmJG1Cb29rU2hlbGYkbVJlcGVhdGVyX0Jvb2tzJGN0bDA3JG1JbWdfQm9vawVaY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyX0NvbnRlbnQkbUJveF9Cb29rU2hlbGYkbUJvb2tTaGVsZiRtUmVwZWF0ZXJfQm9va3MkY3RsMDgkbUltZ19Cb29rBVpjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJfQ29udGVudCRtQm94X0Jvb2tTaGVsZiRtQm9va1NoZWxmJG1SZXBlYXRlcl9Cb29rcyRjdGwwOSRtSW1nX0Jvb2sFWmN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcl9Db250ZW50JG1Cb3hfQm9va1NoZWxmJG1Cb29rU2hlbGYkbVJlcGVhdGVyX0Jvb2tzJGN0bDEwJG1JbWdfQm9vawVaY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyX0NvbnRlbnQkbUJveF9Cb29rU2hlbGYkbUJvb2tTaGVsZiRtUmVwZWF0ZXJfQm9va3MkY3RsMTEkbUltZ19Cb29rBVpjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJfQ29udGVudCRtQm94X0Jvb2tTaGVsZiRtQm9va1NoZWxmJG1SZXBlYXRlcl9Cb29rcyRjdGwxMiRtSW1nX0Jvb2sFWmN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcl9Db250ZW50JG1Cb3hfQm9va1NoZWxmJG1Cb29rU2hlbGYkbVJlcGVhdGVyX0Jvb2tzJGN0bDEzJG1JbWdfQm9vawVaY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyX0NvbnRlbnQkbUJveF9Cb29rU2hlbGYkbUJvb2tTaGVsZiRtUmVwZWF0ZXJfQm9va3MkY3RsMTQkbUltZ19Cb29rBVpjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJfQ29udGVudCRtQm94X0Jvb2tTaGVsZiRtQm9va1NoZWxmJG1SZXBlYXRlcl9Cb29rcyRjdGwxNSRtSW1nX0Jvb2sFWmN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcl9Db250ZW50JG1Cb3hfQm9va1NoZWxmJG1Cb29rU2hlbGYkbVJlcGVhdGVyX0Jvb2tzJGN0bDE2JG1JbWdfQm9vawVaY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyX0NvbnRlbnQkbUJveF9Cb29rU2hlbGYkbUJvb2tTaGVsZiRtUmVwZWF0ZXJfQm9va3MkY3RsMTckbUltZ19Cb29rBVpjdGwwMCRDb250ZW50UGxhY2VIb2xkZXJfQ29udGVudCRtQm94X0Jvb2tTaGVsZiRtQm9va1NoZWxmJG1SZXBlYXRlcl9Cb29rcyRjdGwxOCRtSW1nX0Jvb2sFWmN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcl9Db250ZW50JG1Cb3hfQm9va1NoZWxmJG1Cb29rU2hlbGYkbVJlcGVhdGVyX0Jvb2tzJGN0bDE5JG1JbWdfQm9vawU5Y3RsMDAkQ29udGVudFBsYWNlSG9sZGVyX1N1YlBhZ2VCdXR0b25zJG1NZW51X0FwcFN1YkxpbmtzDw9kBRFBUlJlYWRpbmdQcmFjdGljZWT77L1qkj2NY4hXM868W0Vr/8zOlNZiM3vJzB7jpWmGdw==" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/320237/WebResource.axd?d=3E8X-mYnPDZi-3DaLdBuer2KJzRbeZiEygUqYzVPNpIcFeMcCwdYk-a98b98PilMJZlJZqLiF8QtEfXVCgLFvxTKa26Gm7XIFlu0U6yN-1U1&amp;t=635792847765829480" type="text/javascript"></script>
+
+
+		<script type="text/javascript">
+		<!--	
+			function BtnPress(e)
+			{
+                if (!e) var e = window.event; 
+                if((e.keyCode == 13)||(e.which == 13)) 
+			    {
+					e.preventDefault();
+					window.document.forms[0].ctl00_ContentPlaceHolder_SubPageButtons_mButton_DoneTop.focus();
+					window.document.forms[0].ctl00_ContentPlaceHolder_SubPageButtons_mButton_DoneTop.click();
+				}
+			}
+			if(navigator.appName == "Netscape")
+			{
+				window.document.onkeypress = BtnPress;
+				if(parseInt(navigator.appVersion) <= 4)
+				{
+					window.document.captureEvents(Event.KEYPRESS);
+				}
+			}
+			else
+			{
+				window.document.onkeydown = BtnPress;
+			}
+		// -->
+		</script>
+        		<script type="text/javascript" language="JavaScript">
+        		function LaunchPopUpWindow(inURL,inUniqueID,inWidth,inHeight,inShowMenu, inToolbar, inLocation){
+        		var dynHeight = parseInt(screen.availHeight * .75);
+        		var dynWidth = parseInt(screen.availWidth * .75);
+        		var showMenu = 'no';
+        		var showToolbar = 'no';
+        		var showLocation = 'no';
+        		if(inWidth != '0'){
+        		dynWidth = inWidth;}
+        		if(inHeight != '0'){
+        		dynHeight = inHeight;}
+        		if(inShowMenu == 'True'){
+        		showMenu = 'yes';}
+        		if(inToolbar == 'True'){
+        		showToolbar = 'yes';}
+        		if(inLocation == 'True'){
+        		showLocation = 'yes';}
+        		var aChildWin = window.open(inURL,inUniqueID,'height=' + dynHeight + ',width=' + dynWidth + ',hotkeys=no,dependent=no,menubar=' + showMenu + ',resizable=yes,location=' + showLocation + ',directories=no,titlebar=no,toolbar=' + showToolbar + ',scrollbars=yes');	
+        		aChildWin.focus();}
+        		</script>
+<script src="/320237/WebResource.axd?d=9eTlyRbnTHbUdOP7BXjkLkRpBmihewJslIX3SR9C0iW5eZw01YVDqvnmQfYIFPnhT0lpNLr9wptWjFOlFU2bOzxIucJ_nENZOB0sRPtr4201&amp;t=635792847765829480" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdACAdihhUIaKGmUPxf/Rw5SKJKuQLn91T1Nfq9ZLTfyFJfhoOZxiImPz4sHP/PSerFnSzhQWGocKtXHAPalNhzI9B5c8Yu9Cdja2QhjXbonBG81WXQeL5JLerMIaeekUfk/+Bu5sXMY0bDvyDORlaxWHsGFYeMJL8YCLq5+74g3rNu+VuAnQe08WaNwPNWbpEoqrxcTzRUoAoVOP4kPBM3bTJOZzYs9wFHekCTGoGORAe6PWg/mYPJFYtjxjV9SBzF3kQ1l723EuMZAxz9CtV6FAz2ahbicOQPjfc1lZrec/vREqo74b7g7REaqB/l4DhPcLiiXnmGYtgsONsdTUsRtaHlBb6n9y0iNkxAVuM/HTN1jeirg4wPpaarlwZmP/RflE+J/94fDBnr+4ibnDY2NoHoXTztOvD9DahO6IQjvY5EuQGYEUICn+ueJDaOhMhg2BJwIaSim+M7iwSLQd0sniYBoserbOzA9R/azLsQfl+/fmvZVYMX3648qQYMu1gvTI8dHZfz+/vu1SHmbHVYjuiKqRbap4Fh7p61xQEx0oPD5rD6bkVoVnjXzIJMS7bCGsbqx+q1doPoTgaYAu6oSWrUyAxuUd9xeqh2iTdKZ7C7QRZPdTm4oylubjeWOKA0tz/aawabhDvoQ1GCSZCWcXVbr0h6LZVUEbqUti4fJ54hF3Z4lBHCakWExILwRfgOo3w0OybGrRiLWjG6poEE8DB" />
+</div>
+    <div class="HC_border" style="width:100%; height:100%;">
+		<table cellspacing="0" style="width:100%;vertical-align:top; margin-top:5px;">
+			<tr>
+				<td style="padding-left:10px;">
+					<img src="../../Images/hcRpHomeConnect.png" alt="Renaissance Home Connect" />	
+				</td>
+				<td id="ctl00_mTD_HeaderLinks" class="smallLinks" style="text-align:right;padding-right:10px;">
+					
+					
+					<span id="ctl00_mSpan_StudentName" class="headerStudentName" style="text-align:right;">Benjamin Kang</span>
+					
+					 
+					|&nbsp;<a href="javascript:void(LaunchPopUpWindow('https://helpredirect.renaissance.com/redir.asp?c=en-US-help-HC-HCARhelp','','0','0','False','False','False'))" id="ctl00_mPopupWindow_Help" PopUpImageURL="" PopUpImageAltText="" URL="https://helpredirect.renaissance.com/redir.asp?c=en-US-help-HC-HCARhelp" PopUpUniqueName="">Help</a>
+					|&nbsp;<a id="ctl00_mLinkButton_LogOut" href="javascript:__doPostBack(&#39;ctl00$mLinkButton_LogOut&#39;,&#39;&#39;)">Log Out</a>
+				</td>
+
+			</tr>
+			<tr><td colspan="2" style="padding:0px 10px 0px 10px"><hr /></td></tr>
+		</table>
+		
+		<div id="ctl00_mDiv_SubPageHdr">
+			
+	<input type="submit" name="ctl00$ContentPlaceHolder_SubPageButtons$mButton_DoneTop" value="Done" id="ctl00_ContentPlaceHolder_SubPageButtons_mButton_DoneTop" class="assignmentButtonHdr" />
+	<div id="ctl00_ContentPlaceHolder_SubPageButtons_mDiv_AssignType" class="assignmentTypeHdr">
+		<table id="ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks" class="ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_2" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" id="ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinksn0"><table class="ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_4 linksSelected ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td style="white-space:nowrap;"><a class="ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_1 ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_3 linksSelected ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_5" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder_SubPageButtons$mMenu_AppSubLinks&#39;,&#39;ARReadingPractice&#39;)" style="border-style:none;font-size:1em;">Reading Practice Quizzes</a></td>
+			</tr>
+		</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" id="ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinksn1"><table class="ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td style="white-space:nowrap;"><a class="ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_1 ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_3" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder_SubPageButtons$mMenu_AppSubLinks&#39;,&#39;ARVocabPractice&#39;)">Vocabulary Practice Quizzes</a></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+	</div>
+
+		</div>
+		<div class="HC_contentArea">
+			
+	<table cellspacing="0" style="margin-bottom:4px">
+		<tr style="vertical-align:bottom;">
+			<td class="HC_studentPrompt" style="white-space:nowrap;text-align:left;">My Bookshelf</td>
+			<td id="ctl00_ContentPlaceHolder_Content_mTD_SortBy" class="HC_studentSubPrompt" style="text-align:right; width:100%;">
+				Sort by:
+			</td>
+
+			<td id="ctl00_ContentPlaceHolder_Content_mTD_SortLinks" class="smallLinks">
+				<table id="ctl00_ContentPlaceHolder_Content_mMenu_Sort" class="ctl00_ContentPlaceHolder_Content_mMenu_Sort_2" cellpadding="0" cellspacing="0" border="0">
+	<tr>
+		<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" id="ctl00_ContentPlaceHolder_Content_mMenu_Sortn0"><table class="ctl00_ContentPlaceHolder_Content_mMenu_Sort_4 smallLinksSelected ctl00_ContentPlaceHolder_Content_mMenu_Sort_6" cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td style="white-space:nowrap;"><a class="ctl00_ContentPlaceHolder_Content_mMenu_Sort_1 ctl00_ContentPlaceHolder_Content_mMenu_Sort_3 smallLinksSelected ctl00_ContentPlaceHolder_Content_mMenu_Sort_5" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder_Content$mMenu_Sort&#39;,&#39;DateTaken&#39;)" style="border-style:none;font-size:1em;">Date Taken</a></td>
+			</tr>
+		</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(this)" id="ctl00_ContentPlaceHolder_Content_mMenu_Sortn1"><table class="ctl00_ContentPlaceHolder_Content_mMenu_Sort_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td style="white-space:nowrap;"><a class="ctl00_ContentPlaceHolder_Content_mMenu_Sort_1 ctl00_ContentPlaceHolder_Content_mMenu_Sort_3" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder_Content$mMenu_Sort&#39;,&#39;Title&#39;)">Title</a></td>
+			</tr>
+		</table></td>
+	</tr>
+</table>
+			</td>
+
+		</tr>	
+	</table>
+	<div id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf">
+	<div style="border-width:1px;border-color:#808080;border-style:solid;"><div class="boxHeaderAR">
+			<table cellspacing="0">
+				<tr>
+					<td id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mTD_BoxTitle" class="boxHeaderTitle" style="white-space:nowrap;">My Reading Practice Quizzes</td>
+	
+					<td style="text-align:right; width:100%; padding-right:5px;"><span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mSpan_Pages" class="bookShelvesPages">Page 1 of 35</span></td>
+					<td style="text-align:right; white-space:nowrap;">
+						<input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mButton_First" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mButton_First" disabled="disabled" src="../../images/hcBeginning_d.png" style="border-width:0px;" />
+						<input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mButton_Prev" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mButton_Prev" disabled="disabled" src="../../images/hcPrevious_d.png" style="border-width:0px;" />
+						<input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mButton_Next" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mButton_Next" src="../../images/hcNext.png" style="border-width:0px;" />
+						<input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mButton_Last" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mButton_Last" src="../../images/hcEnd.png" style="border-width:0px;" />
+					</td>
+				</tr>
+			</table>
+		</div><div class="">
+			
+<table cellspacing="0" class="bookShelves" >
+	<tr>
+		<td id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mTD_Shelf" class="bookShelfSafariOld" style="text-align:center;">
+			
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl00_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl00$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl00_mImg_Book" title="The Phantom Tollbooth" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780007263486.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl01_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl01$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl01_mImg_Book" title="Counting by 7s" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780803738553.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl02_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl02$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl02_mImg_Book" title="Tangerine" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780152012465.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl03_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl03$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl03_mImg_Book" title="Island of the Blue Dolphins" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780547328614.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl04_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl04$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl04_mImg_Book" title="Hatchet" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780330439725.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl05_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl05$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl05_mImg_Book" title="By the Great Horn Spoon!" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780833513489.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl06_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl06$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl06_mImg_Book" title="Matilda" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780140379853.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl07_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl07$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl07_mImg_Book" title="The Last Battle" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780007115549.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl08_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl08$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl08_mImg_Book" title="The Silver Chair" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780007253012.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl09_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl09$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl09_mImg_Book" title="The Voyage of the Dawn Treader" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780007253005.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl10_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl10$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl10_mImg_Book" title="Prince Caspian" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780007202300.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl11_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl11$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl11_mImg_Book" title="The Horse and His Boy" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780007252985.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl12_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl12$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl12_mImg_Book" title="The Lion, the Witch and the Wardrobe (Unabridged)" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780881030778.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl13_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl13$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl13_mImg_Book" title="The Magician&#39;s Nephew" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780060530846.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl14_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl14$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl14_mImg_Book" title="Things That Are" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780399246913.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl15_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl15$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl15_mImg_Book" title="Things Hoped For" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780142410738.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl16_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl16$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl16_mImg_Book" title="Things Not Seen" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780142400760.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl17_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl17$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl17_mImg_Book" title="The Wildcat&#39;s Claw" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9781338189827.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl18_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl18$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl18_mImg_Book" title="Heart of the Land" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9781338189810.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+					<span id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl19_mSpan_Book" class="book" style="white-space:nowrap; display:inline-block;"><img src="../../Images/hcBookLeft.gif" /><input type="image" name="ctl00$ContentPlaceHolder_Content$mBox_BookShelf$mBookShelf$mRepeater_Books$ctl19$mImg_Book" id="ctl00_ContentPlaceHolder_Content_mBox_BookShelf_mBookShelf_mRepeater_Books_ctl19_mImg_Book" title="The Burning Tide" class="bookImageSafariOld" src="https://coverscans.renlearn.com/9780545876971.jpg" style="border-width:0px;" /><img src="../../Images/hcBookRight.gif" /></span>
+				
+		</td>
+	
+	</tr>
+</table>
+			
+		</div></div>
+</div>
+
+	<input type="submit" name="ctl00$ContentPlaceHolder_Content$mButton_Done" value="Done" id="ctl00_ContentPlaceHolder_Content_mButton_Done" class="pageButtonRow" />
+
+		</div>
+	</div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_Data = new Object();
+ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_Data.disappearAfter = 500;
+ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_Data.horizontalOffset = 0;
+ctl00_ContentPlaceHolder_SubPageButtons_mMenu_AppSubLinks_Data.verticalOffset = 0;
+var ctl00_ContentPlaceHolder_Content_mMenu_Sort_Data = new Object();
+ctl00_ContentPlaceHolder_Content_mMenu_Sort_Data.disappearAfter = 500;
+ctl00_ContentPlaceHolder_Content_mMenu_Sort_Data.horizontalOffset = 0;
+ctl00_ContentPlaceHolder_Content_mMenu_Sort_Data.verticalOffset = 0;
+//]]>
+</script>
+</form>
+</body>
+</html>
